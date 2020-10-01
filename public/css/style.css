@@ -1915,3 +1915,12 @@ p {
 .case-study .row.bg-case-study .item .card .card-body {
   padding: 0;
 }
+
+.stats {
+  background-image: url("/public/images/backgrounds/stats-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 586px;
+}
