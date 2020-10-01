@@ -1709,7 +1709,7 @@ p {
 }
 
 .services .ipad {
-  background-image: url("/public/images/general/ipad.jpg");
+  background-image: url("../images/general/ipad.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
