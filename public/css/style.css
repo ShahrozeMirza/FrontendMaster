@@ -2236,7 +2236,7 @@ p {
 }
 
 .services .ipad {
-  background-image: url("/public/images/general/ipad.jpg");
+  background-image: url("../images/general/ipad.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2397,7 +2397,7 @@ p {
 
 .stats {
   position: relative;
-  background-image: url("/public/images/backgrounds/stats-bg.jpg");
+  background-image: url("../images/backgrounds/stats-bg.jpg");
   min-height: 360px;
   background-repeat: no-repeat;
   background-position: center;
@@ -2499,7 +2499,7 @@ p {
 }
 
 .team {
-  background-image: url("/public/images/backgrounds/iphones-bg.jpg");
+  background-image: url("../images/backgrounds/iphones-bg.jpg");
   height: 650px;
   background-size: cover;
   background-position: center;
@@ -2515,7 +2515,7 @@ p {
   left: 0;
   bottom: 0;
   content: "";
-  background: url("/public/images/backgrounds/curve-overlay.png") no-repeat bottom center;
+  background: url("../images/backgrounds/curve-overlay.png") no-repeat bottom center;
   z-index: 2;
 }
 
@@ -2729,7 +2729,7 @@ p {
 }
 
 footer .footer-top {
-  background-image: url("/public/images/backgrounds/footer-bg.jpg");
+  background-image: url("../images/backgrounds/footer-bg.jpg");
   min-height: 416px;
   background-size: cover;
   background-repeat: no-repeat;
