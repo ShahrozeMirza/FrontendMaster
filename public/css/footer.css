@@ -1,0 +1,6 @@
+footer .footer-top {
+  background-image: url("/public/images/backgrounds/footer-bg.jpg");
+  min-height: 478px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

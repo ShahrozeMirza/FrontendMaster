@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="public/css/owl.theme.default.min.css">
   <link rel="stylesheet" href="public/css/owl.carousel.min.css">
   <link rel="stylesheet" href="public/css/animate.css/animate.min.css">
+  <link rel="stylesheet" href="public/js/plugins/input-material.css">
   <link rel="stylesheet" href="public/js/plugins/venobox.min.css">
   <link rel="stylesheet" href="public/css/style.css">
   <title>Bino</title>
@@ -20,7 +21,8 @@
 <body>
 
   <header>
-    <div class="banner" style="background-image: url('public/images/backgrounds/banner-bg.jpg')">
+    <div class="menu-wrapper">
+      <div class="bg-fixed-menu"></div>
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a href="#">
@@ -33,30 +35,32 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#">HOME</a>
+                <a class="nav-link active" href="#home">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="#about">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">PORTFOLIO</a>
+                <a class="nav-link" href="#portfolio">PORTFOLIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">PRICING</a>
+                <a class="nav-link" href="#pricing">PRICING</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TEAM</a>
+                <a class="nav-link" href="#team">TEAM</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
+                <a class="nav-link" href="#blog">BLOG</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
+     </div>
+    <div id="home" class="banner" style="background-image: url('public/images/backgrounds/banner-bg.jpg')">
       <div class="align-slider-center">
         <div class="container-fluid">
           <div class="banner-slider owl-carousel owl-theme pd-top-50">
@@ -165,6 +169,10 @@
           <div class="row">
             <div class="col-md-3">
               <div class="card">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
                 <div class="card-icon">
                   <i class="fas fa-glasses"></i>
                 </div>
@@ -221,6 +229,7 @@
     </div>
 
     <div class="history section">
+      <div id="about" class="fixed-menu-spacing"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -258,7 +267,8 @@
               <div class="media">
                 <div class="media-body">
                   <h4 class="sub-heading primary-color mb-3">WEB DESIGN</h4>
-                  <p class="description-paragraph text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum 
+                  <p class="description-paragraph text-white">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ip sum
                     has been the industry's standard dummy text ever
                   </p>
                 </div>
@@ -269,7 +279,8 @@
               <div class="media">
                 <div class="media-body">
                   <h4 class="sub-heading primary-color mb-3">PRINT DESIGN</h4>
-                  <p class="description-paragraph text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum 
+                  <p class="description-paragraph text-white">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ip sum
                     has been the industry's standard dummy text ever
                   </p>
                 </div>
@@ -280,7 +291,8 @@
               <div class="media">
                 <div class="media-body">
                   <h4 class="sub-heading primary-color mb-3">PHOTOGRAPHY</h4>
-                  <p class="description-paragraph text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ip sum 
+                  <p class="description-paragraph text-white">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ip sum
                     has been the industry's standard dummy text ever
                   </p>
                 </div>
@@ -296,11 +308,13 @@
         </div>
       </div>
     </div>
-    
-    <div class="recent-works section">
+
+    <div class="recent-works section pb-0">
+      <div id="portfolio" class="fixed-menu-spacing"></div>
       <div class="section-header">
         <h1 class="section-heading text-center mb-3">RECENT WORKS</h1>
-        <p class="description-paragraph text-center">It has survived not only five centuries, but also the leap scrambled it to make a type.</p> 
+        <p class="description-paragraph text-center">It has survived not only five centuries, but also the leap
+          scrambled it to make a type.</p>
       </div>
       <div class="fancy-border mb-5"></div>
 
@@ -342,13 +356,13 @@
           </div>
           <div class="col-md-3 grid-item mold">
             <img class="img-fluid" src="public/images/imgs/img-2.jpg" alt="img-2.jpg">
-           <a class="venobox full-image" data-gall="my-gallery" title="Image 2" href="public/images/imgs/img-2.jpg">
-            <div class="grid-item-detail">
-              <div class="mini-border"></div>
-              <h3 class="text-white fs-22 fw-600 mt-3 mb-2">TECH DESIGN</h3>
-              <p class="fs-14 text-white">art/tech</p>
-            </div>
-           </a>
+            <a class="venobox full-image" data-gall="my-gallery" title="Image 2" href="public/images/imgs/img-2.jpg">
+              <div class="grid-item-detail">
+                <div class="mini-border"></div>
+                <h3 class="text-white fs-22 fw-600 mt-3 mb-2">TECH DESIGN</h3>
+                <p class="fs-14 text-white">art/tech</p>
+              </div>
+            </a>
           </div>
           <div class="col-md-3 grid-item sport">
             <img class="img-fluid" src="public/images/imgs/img-3.jpg" alt="img-3.jpg">
@@ -358,7 +372,7 @@
                 <h3 class="text-white fs-22 fw-600 mt-3 mb-2">TECH DESIGN</h3>
                 <p class="fs-14 text-white">art/tech</p>
               </div>
-             </a>
+            </a>
           </div>
           <div class="col-md-3 grid-item car">
             <img class="img-fluid" src="public/images/imgs/img-4.jpg" alt="img-4.jpg">
@@ -368,7 +382,7 @@
                 <h3 class="text-white fs-22 fw-600 mt-3 mb-2">TECH DESIGN</h3>
                 <p class="fs-14 text-white">art/tech</p>
               </div>
-             </a>
+            </a>
           </div>
           <div class="col-md-3 grid-item mountain">
             <img class="img-fluid" src="public/images/imgs/img-5.jpg" alt="img-5.jpg">
@@ -378,7 +392,7 @@
                 <h3 class="text-white fs-22 fw-600 mt-3 mb-2">TECH DESIGN</h3>
                 <p class="fs-14 text-white">art/tech</p>
               </div>
-             </a>
+            </a>
           </div>
           <div class="col-md-3 grid-item fashion">
             <img class="img-fluid" src="public/images/imgs/img-6.jpg" alt="img-6.jpg">
@@ -388,7 +402,7 @@
                 <h3 class="text-white fs-22 fw-600 mt-3 mb-2">TECH DESIGN</h3>
                 <p class="fs-14 text-white">art/tech</p>
               </div>
-             </a>
+            </a>
           </div>
           <div class="col-md-3 grid-item mold">
             <img class="img-fluid" src="public/images/imgs/img-7.jpg" alt="img-7.jpg">
@@ -398,7 +412,7 @@
                 <h3 class="text-white fs-22 fw-600 mt-3 mb-2">TECH DESIGN</h3>
                 <p class="fs-14 text-white">art/tech</p>
               </div>
-             </a>
+            </a>
           </div>
           <div class="col-md-3 grid-item technology">
             <img class="img-fluid" src="public/images/imgs/img-8.jpg" alt="img-8.jpg">
@@ -408,7 +422,7 @@
                 <h3 class="text-white fs-22 fw-600 mt-3 mb-2">TECH DESIGN</h3>
                 <p class="fs-14 text-white">art/tech</p>
               </div>
-             </a>
+            </a>
           </div>
         </div>
       </div>
@@ -418,12 +432,14 @@
       <div class="container">
         <div class="section-header">
           <h1 class="section-heading text-center mb-3">CASE STUDY</h1>
-          <p class="description-paragraph text-center">It has survived not only five centuries, but also the leap scrambled it to make a type.</p> 
+          <p class="description-paragraph text-center">It has survived not only five centuries, but also the leap
+            scrambled it to make a type.</p>
         </div>
         <div class="fancy-border mb-5"></div>
         <div class="row bg-case-study" style="background-image: url(public/images/backgrounds/bg-case-study.jpg);">
           <div class="col-md-7 my-auto">
-            <div class="case-study-slider owl-carousel owl-theme"> <!-- owl-carousel owl-theme-->
+            <div class="case-study-slider owl-carousel owl-theme">
+              <!-- owl-carousel owl-theme-->
               <div class="item">
                 <div class="card">
                   <span class="diamond-icon">
@@ -433,8 +449,8 @@
                     <h4 class="card-title sub-heading mb-4">ACCUMULATE CREATIVE IDEAD</h4>
                     <div class="underline-primary mb-4"></div>
                     <p class="card-text description-paragraph mb-5">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been 
-                      the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem 
+                      Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been
+                      the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem
                       Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.
                     </p>
                     <a href="#" class="btn section-primary-btn px-5">READ MORE</a>
@@ -450,8 +466,8 @@
                     <h4 class="card-title sub-heading mb-4">ACCUMULATE CREATIVE IDEAD</h4>
                     <div class="underline-primary mb-4"></div>
                     <p class="card-text description-paragraph mb-5">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been 
-                      the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem 
+                      Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been
+                      the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem
                       Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.
                     </p>
                     <a href="#" class="btn section-primary-btn px-5">READ MORE</a>
@@ -467,35 +483,483 @@
                     <h4 class="card-title sub-heading mb-4">ACCUMULATE CREATIVE IDEAD</h4>
                     <div class="underline-primary mb-4"></div>
                     <p class="card-text description-paragraph mb-5">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been 
-                      the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem 
+                      Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been
+                      the industry. Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem
                       Ipsum has been the industry Printing and typelorem Ipsum has been the setting let.
                     </p>
                     <a href="#" class="btn section-primary-btn px-5">READ MORE</a>
                   </div>
                 </div>
               </div>
-          </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="stats">
-      
+    <div class="stats section">
+      <div class="overlay-black-medium"></div>
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div class="stats-container">
+            <span class="mb-3"><i class="far fa-heart"></i></span>
+            <div class="text-center">
+              <h4 class="text-white fw-600 counter">3891</h4>
+              <p class="fs-18 fw-400 text-color-gray">User Favourites</p>
+            </div>
+          </div>
+          <div class="stats-container">
+            <span class="mb-3"><i class="fas fa-tags"></i></span>
+            <div class="text-center">
+              <h4 class="text-white fw-600 counter">281</h4>
+              <p class="fs-18 fw-400 text-color-gray">Posts Last 24 Hours</p>
+            </div>
+          </div>
+          <div class="stats-container">
+            <span class="mb-3"><i class="far fa-thumbs-up"></i></span>
+            <div class="text-center">
+              <h4 class="text-white fw-600 counter">618</h4>
+              <p class="fs-18 fw-400 text-color-gray">Total Posts</p>
+            </div>
+          </div>
+          <div class="stats-container">
+            <span class="mb-3"><i class="far fa-star"></i></span>
+            <div class="text-center">
+              <h4 class="text-white fw-600 counter">178</h4>
+              <p class="fs-18 fw-400 text-color-gray">Campaigns</p>
+            </div>
+          </div>
+          <div class="stats-container">
+            <span class="mb-3"><i class="fas fa-medal"></i></span>
+            <div class="text-center">
+              <h4 class="text-white fw-600 counter">285</h4>
+              <p class="fs-18 fw-400 text-color-gray">Amazing Features</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing section">
+      <div id="pricing" class="fixed-menu-spacing"></div>
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-heading text-center mb-3">OUR PRICING</h1>
+          <p class="description-paragraph text-center">A 30 days free trial for all. A brief story about how this
+            process works, keep an eye till the end.</p>
+        </div>
+        <div class="fancy-border mb-5"></div>
+
+        <div class="pricing-details">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <h1 class="sub-heading text-white fs-24">STARTER</h1>
+                <div class="package">
+                  <div class="package-price">
+                    <i class="fas fa-dollar-sign section-heading fs-39"></i>
+                    <span class="section-heading fs-39">19</span>
+                    <p class="description-paragraph">per month</p>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text description-paragraph">Competition Anaysis Methods</p>
+                  <p class="card-text description-paragraph">All Ranked URLs</p>
+                  <p class="card-text description-paragraph">International Support System</p>
+                  <p class="card-text description-paragraph">Social Media Tracking</p>
+                  <a href="#" class="btn section-primary-btn px-5">CHOOSE PLAN</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <h1 class="sub-heading text-white fs-24">PREMIUM</h1>
+                <div class="package">
+                  <div class="package-price">
+                    <i class="fas fa-dollar-sign section-heading fs-39"></i>
+                    <span class="section-heading fs-39">39</span>
+                    <p class="description-paragraph">per month</p>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text description-paragraph">Competition Anaysis Methods</p>
+                  <p class="card-text description-paragraph">All Ranked URLs</p>
+                  <p class="card-text description-paragraph">International Support System</p>
+                  <p class="card-text description-paragraph">Social Media Tracking</p>
+                  <a href="#" class="btn section-primary-btn px-5">CHOOSE PLAN</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <h1 class="sub-heading text-white fs-24">BUSINESS</h1>
+                <div class="package">
+                  <div class="package-price">
+                    <i class="fas fa-dollar-sign section-heading fs-39"></i>
+                    <span class="section-heading fs-39">99</span>
+                    <p class="description-paragraph">per month</p>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text description-paragraph">Competition Anaysis Methods</p>
+                  <p class="card-text description-paragraph">All Ranked URLs</p>
+                  <p class="card-text description-paragraph">International Support System</p>
+                  <p class="card-text description-paragraph">Social Media Tracking</p>
+                  <a href="#" class="btn section-primary-btn px-5">CHOOSE PLAN</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team section">
+      <div id="team" class="fixed-menu-spacing"></div>
+      <div class="container z-index-5">
+        <div class="section-header">
+          <h1 class="section-heading text-center mb-3 text-white">OUR TEAM</h1>
+          <p class="description-paragraph text-center">Meet the craziest team. Share your thoughts with them.</p>
+        </div>
+        <div class="fancy-border mb-5"></div>
+        <ul>
+          <li class="text-center">
+            <img src="public/images/team/team-1.jpg" alt="team-1.jpg">
+            <div class="member-info">
+              <p class="fs-24 primary-color">Kazi Erfan</p>
+              <p class="fs-14 text-white">UI/UX Designer</p>
+            </div>
+          </li>
+          <li class="text-center">
+            <img src="public/images/team/team-1.jpg" alt="team-1.jpg">
+            <div class="member-info">
+              <p class="fs-24 primary-color">Kazi Erfan</p>
+              <p class="fs-14 text-white">UI/UX Designer</p>
+            </div>
+          </li>
+          <li class="text-center">
+            <img src="public/images/team/team-1.jpg" alt="team-1.jpg">
+            <div class="member-info">
+              <p class="fs-24 primary-color">Kazi Erfan</p>
+              <p class="fs-14 text-white">UI/UX Designer</p>
+            </div>
+          </li>
+          <li class="text-center">
+            <img src="public/images/team/team-1.jpg" alt="team-1.jpg">
+            <div class="member-info">
+              <p class="fs-24 primary-color">Kazi Erfan</p>
+              <p class="fs-14 text-white">UI/UX Designer</p>
+            </div>
+          </li>
+          <li class="text-center">
+            <img src="public/images/team/team-1.jpg" alt="team-1.jpg">
+            <div class="member-info">
+              <p class="fs-24 primary-color">Kazi Erfan</p>
+              <p class="fs-14 text-white">UI/UX Designer</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="integration section section-bg-gray section-bottom-border">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-heading text-center mb-3">GREAT INTEGRATIONS WITH OTHERS</h1>
+          <p class="description-paragraph text-center">Suspendisse sed eros mollis, tincidunt felis eget, interdum erat.
+          </p>
+          <p class="description-paragraph text-center">
+            Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna suscipit, dictum quam nec.
+          </p>
+        </div>
+        <div class="fancy-border mb-5"></div>
+        <div class="row">
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/osha.jpg" alt="osha.jpg">
+          </div>
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/nyc.jpg" alt="nyc.jpg">
+          </div>
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/nyc-building.jpg" alt="nyc-building.jpg">
+          </div>
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/bbb.jpg" alt="bbb.jpg">
+          </div>
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/epa.jpg" alt="epa.jpg">
+          </div>
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/dummy.jpg" alt="dummy.jpg">
+          </div>
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/logo-type.jpg" alt="logo-type.jpg">
+          </div>
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/imaginarium.jpg" alt="imaginarium.jpg">
+          </div>
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/random-brand.jpg" alt="random-brand.jpg">
+          </div>
+          <div class="col-md-20">
+            <img class="img-fluid" src="public/images/logos/another-logo.jpg" alt="another-logo.jpg">
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="blog section section-bg-gray pb-0">
+      <div id="blog" class="fixed-menu-spacing"></div>
+      <div class="container-fluid full-width">
+        <div class="section-header">
+          <h1 class="section-heading text-center mb-3">OUR BLOG</h1>
+          <p class="description-paragraph text-center">Suspendisse sed eros mollis, tincidunt felis eget, interdum
+            eratullam sit amet odio.</p>
+        </div>
+        <div class="fancy-border mb-5"></div>
+        <div class="row no-gutters">
+          <!--Row Default Section Start-->
+          <div class="col-md-6">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <img class="blog-img" src="public/images/blog/tea.jpg" alt="tea.jpg">
+              </div>
+              <div class="col-md-6">
+                <div class="blog-img-desc bg-primary">
+                  <p class="fs-14 text-white mb-3">art / t-shirt</p>
+                  <div class="mb-4">
+                    <h4 class="fs-24 text-white mb-3">T-SHIRT DESIGN</h4>
+                    <div class="mini-border"></div>
+                  </div>
+                  <p class="fs-14 fw-300 text-white mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a
+                    galley of type a scrambled it to make a type specimen book.
+                  </p>
+                  <a class="read-more-arrow-btn" href="#">Read More
+                    <img class="dimensions-10" src="public/images/icons/double-chevron-right.png"
+                      alt="double-chevron-right.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row no-gutters">
+              <div class="col-md-6">
+                <img class="blog-img" src="public/images/blog/watch.jpg" alt="tea.jpg">
+              </div>
+              <div class="col-md-6">
+                <div class="blog-img-desc bg-primary">
+                  <p class="fs-14 text-white mb-3">art / t-shirt</p>
+                  <div class="mb-4">
+                    <h4 class="fs-24 text-white mb-3">T-SHIRT DESIGN</h4>
+                    <div class="mini-border"></div>
+                  </div>
+                  <p class="fs-14 fw-300 text-white mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a
+                    galley of type a scrambled it to make a type specimen book.
+                  </p>
+                  <a class="read-more-arrow-btn" href="#">Read More
+                    <img class="dimensions-10" src="public/images/icons/double-chevron-right.png"
+                      alt="double-chevron-right.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Row Default Section End-->
+
+          <!--Row Reverse Section Start-->
+          <div class="col-md-6">
+            <div class="row no-gutters flex-row-reverse">
+              <div class="col-md-6">
+                <img class="blog-img" src="public/images/blog/mountain-road.jpg" alt="tea.jpg">
+              </div>
+              <div class="col-md-6">
+                <div class="blog-img-desc bg-primary">
+                  <p class="fs-14 text-white mb-3">art / t-shirt</p>
+                  <div class="mb-4">
+                    <h4 class="fs-24 text-white mb-3">T-SHIRT DESIGN</h4>
+                    <div class="mini-border"></div>
+                  </div>
+                  <p class="fs-14 fw-300 text-white mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a
+                    galley of type a scrambled it to make a type specimen book.
+                  </p>
+                  <a class="read-more-arrow-btn" href="#">Read More
+                    <img class="dimensions-10" src="public/images/icons/double-chevron-right.png"
+                      alt="double-chevron-right.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row no-gutters flex-row-reverse">
+              <div class="col-md-6">
+                <img class="blog-img" src="public/images/blog/car.jpg" alt="tea.jpg">
+              </div>
+              <div class="col-md-6">
+                <div class="blog-img-desc bg-primary">
+                  <p class="fs-14 text-white mb-3">art / t-shirt</p>
+                  <div class="mb-4">
+                    <h4 class="fs-24 text-white mb-3">T-SHIRT DESIGN</h4>
+                    <div class="mini-border"></div>
+                  </div>
+                  <p class="fs-14 fw-300 text-white mb-4">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                    been the indu Stry's standard dummy text ever since the 1500s, an unknown printer took a
+                    galley of type a scrambled it to make a type specimen book.
+                  </p>
+                  <a class="read-more-arrow-btn" href="#">Read More
+                    <img class="dimensions-10" src="public/images/icons/double-chevron-right.png"
+                      alt="double-chevron-right.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Row Reverse Section End-->
+        </div>
+      </div>
+    </div>
+
+    <div class="contact section section-bg-gray">
+      <div id="contact" class="fixed-menu-spacing"></div>
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-heading text-center mb-3">KEEP IN TOUCH</h1>
+          <p class="description-paragraph text-center">Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu
+            urna suscipit, dictum quam nec.</p>
+        </div>
+        <div class="fancy-border mb-5"></div>
+
+        <div class="contact-form">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="form-left">
+                <div class="address ct-info-mb">
+                  <h3 class="ct-form-heading">OUR ADDRESS</h3>
+                  <p class="description-paragraph fs-18">House #13, Streat road, Sydney</p>
+                  <p class="description-paragraph fs-18">2310 Australia</p>
+                </div>
+                <div class="number ct-info-mb">
+                  <h3 class="ct-form-heading">CALL US</h3>
+                  <p class="description-paragraph fs-18">+ 880 168 109 1425</p>
+                  <p class="description-paragraph fs-18">+ 0216809142</p>
+                </div>
+                <div class="email-address">
+                  <h3 class="ct-form-heading">EMAIL US</h3>
+                  <p class="description-paragraph fs-18">contactus@email.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="form-right">
+                <form id="contact-form">
+                  <div class="form-group input-material">
+                      <input type="text" class="form-control" id="name-field" required>
+                      <label for="name-field">Name</label>
+                  </div>
+                  <div class="form-group input-material">
+                      <input type="email" class="form-control" id="email-field" required>
+                      <label for="email-field">Email</label>
+                  </div>
+                  <div class="form-group input-material">
+                    <input type="text" class="form-control" id="subject-field" required>
+                    <label for="subject-field">Subject</label>
+                </div>
+                  <div class="form-group input-material">
+                      <textarea class="form-control" id="textarea-field" rows="3" required></textarea>
+                      <label for="textarea-field">Message</label>
+                  </div>
+                  <div class="text-left">
+                      <button type="submit" class="btn section-primary-btn px-5">SEND MESSAGE</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
   <footer>
-
+    <div class="footer-top">
+      <div class="overlay-black"></div>
+      <div class="section">
+        <div class="container">
+          <div class="section-header">
+            <h1 class="section-heading text-white text-center fw-400 mb-3">Let's Get Started Now. <strong>It's FREE</strong></h1>
+            <p class="description-paragraph text-white fw-300 fs-18 text-center">
+              30 day free trial. Free plan allows up to 2 projects. Pay if you need more. Cancel anytime. No catches.
+            </p>
+            <div class="text-center mt-5">
+              <a class="btn section-primary-btn" href="#">START FREE TRIAL</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 my-auto">
+            <div class="footer-social-icons">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-rss"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-skype"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-vimeo-v"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-tumblr"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 my-auto">
+            <div class="copyrights">
+              <p class="description-paragraph text-right">Kazi Erfan © All Rights Reserved</p>
+              <a class="scroll-top-btn" href="#home"><i class="fas fa-chevron-up"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script src="public/js/jquery.min.js"></script>
   <script src="public/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
   <script src="https://kit.fontawesome.com/e02be562b0.js" crossorigin="anonymous"></script>
   <script src="public/js/owl.carousel.min.js"></script>
   <script src="public/js/plugins/venobox.min.js"></script>
   <script src="public/js/isotope.pkgd.min.js"></script>
+  <script src="public/js/plugins/jquery.waypoints.min.js"></script>
+  <script src="public/js/plugins/jquery.counterup.min.js"></script>
+  <script src="public/js/plugins/materialize-inputs.jquery.js"></script>
   <script src="public/js/app.js"></script>
 </body>
 
